@@ -1,0 +1,57 @@
+.btncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btncontainer2 {
+    max-width: 20%;
+    margin: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn {
+    background-color: rgb(232, 110, 11);
+    border: 0ch;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(232, 11, 11);
+}
+
+.btn:focus {
+    background-color: rgb(59, 184, 111);
+}
+
+.card {
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: aliceblue; */
+
+}
+
+.card img {
+    width: 200px;
+}
+
+main {
+    margin-top: 10px;
+    /* background-color: black; */
+}
